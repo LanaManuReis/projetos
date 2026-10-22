@@ -1,5 +1,5 @@
 #Entrada - o programa solicitará as informações.
-valortotal = float(input('Digite o valor total da compra: '))
+valortotal = float(input('Digite o valor total da compra: 150'))
 
 #Processamento - programa irá calcular o desconto com base no valor total.
 if valortotal < 200:
