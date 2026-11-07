@@ -1,0 +1,81 @@
+/* Estilização geral da página */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7fa;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Estilização do cabeçalho */
+
+header {
+    background-color: #f8dce8;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #c04b7c;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #705563;
+    font-size: 16px;
+}
+
+/* Organização das três seções com Flexbox */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Estilização individual das seções */
+
+.secao {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilização dos títulos das seções */
+
+.titulo-secao {
+    color: #c04b7c;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Organização das imagens */
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: #705563;
+    font-size: 14px;
+    margin-top: 8px;
+}
